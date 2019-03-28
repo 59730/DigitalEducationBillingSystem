@@ -67,12 +67,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\edit.png" />
+    <Content Include="images\hearing.png" />
+    <Content Include="images\seeing.png" />
+    <Content Include="images\send.png" />
+    <Content Include="images\t-transparent-logo-4.png" />
+    <Content Include="images\tulogo.png" />
+    <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DEBSmaster.Master.cs">
+      <DependentUpon>DEBSmaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DEBSmaster.Master.designer.cs">
+      <DependentUpon>DEBSmaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DEBSmaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
